@@ -52,7 +52,7 @@ int main() {
     return 0;
 }
 /*
-    Complexity: O(N^2)
+    Complexity - O(N^2)
 
     Observe that all brute force solutions to this problem are O(N^3) because they use linear time
     to compute the "asymetric value" of each crop of each length.
