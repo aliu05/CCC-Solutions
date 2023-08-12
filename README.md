@@ -1,5 +1,6 @@
 # CCC-Solutions
 Solutions for problems that have appeared in the Canadian Computing Competition administrated by the University of Waterloo.
+
 The goal is to eventually upload a solution to every problem that has appeared in the CCC.
 
 All solutions are written in C++, although I am considering the use of Python for the Junior problems.
