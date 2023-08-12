@@ -1,7 +1,7 @@
 /*
     Complexity - O(N)
 
-    Observe that each triangle will add a side length of 3 unless it has an edgedirectly adjacent
+    Observe that each triangle will add a side length of 3 unless it has an edge directly adjacent
     to another triangle.
     Therefore the answer is just 3 times the # of triangles minus 2 for each adjacent set of edges.
 */
