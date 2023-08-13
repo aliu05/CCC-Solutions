@@ -13,10 +13,10 @@ using namespace std;
 #define ll long long
 #define nl "\n"
 
-const int mxJA=1e6+1;
+const int mxJA = 1e6;
 int J, A, ans;
-char jersey[mxJA];
-bool taken[mxJA];
+char jersey[mxJA + 1];
+bool taken[mxJA + 1];
 pair<char, int> athlete[mxJA];
 
 int main() {
@@ -29,7 +29,7 @@ int main() {
         cin >> athlete[i].first >> athlete[i].second;
         
     for(int i = 0; i < A; ++i) {
-        // Notice that conviniently 'L' < 'M' < 'S'
+        // Conveniently 'L' < 'M' < 'S'
         if(jersey[athlete[i].second] <= athlete[i].first && !taken[athlete[i].second]) {
             ++ans;
             taken[athlete[i].second] = true;
