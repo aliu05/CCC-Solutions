@@ -1,7 +1,7 @@
 /*
-    Complexity - O(P*logG)
+    Complexity - O(P logG)
 
-    Observe that the naive solution is O(P*G) as for every incoming plane the algorithm iterates
+    Observe that the naive solution is O(GP) as for every incoming plane the algorithm iterates
     over the gates.
     By using a binary search tree to store the available gate #s at all times, the complexity to
     compute the largest available gate # under a certain value becomes logarithmic with respect
