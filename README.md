@@ -9,4 +9,4 @@ Generally, the DMOJ judge offers test cases of equal or stronger strength to tho
 For example, all test cases on CCC 2015 S3 - [Gates](https://dmoj.ca/problem/ccc15s3) can be solved with a brute force O(GP) solution
 in the official contest portal. However, an O(P logG) solution is required to pass all DMOJ tests without TLE.
 
-A multi-line comment with a very brief description of each solution will be at the top of every file.
+A multi-line comment with a brief description of each solution will be at the top of every file.
