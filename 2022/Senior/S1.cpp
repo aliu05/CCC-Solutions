@@ -16,11 +16,11 @@ typedef int64_t i64;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
-    i64 n, ans;
-    cin >> n;
+    i64 N, ans;
+    cin >> N;
     ans = 0;
-    for(i64 i = 0; i <= n / 5; ++i) {
-        if((n - 5 * i) % 4 == 0) ans++;
+    for(i64 i = 0; i <= N / 5; ++i) {
+        if((N - 5 * i) % 4 == 0) ans++;
     }
     cout << ans;
     return 0;
