@@ -31,11 +31,11 @@ int main() {
 
     if(question == 1) {
         for(int i = 0; i < N; ++i)
-            ans += max(d[i], p[i]);
+            ans += min(d[i], p[i]);
     }
     else {
         for(int i = 0; i < N; ++i)
-            ans += max(d[i], p[N - 1 - i]);
+            ans += min(d[i], p[N - 1 - i]);
     }
     
     cout << ans;
